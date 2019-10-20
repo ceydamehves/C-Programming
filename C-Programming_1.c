@@ -20,4 +20,8 @@
 
    printf(sizeof(degiskenadi)) : değişkenin kapladığı alanı verir.
 
+
+    srand(time(NULL)) ---> kullanılma sebebi, program her çalıştığında önceki üretilen randoma bağlı kalmadan
+    yeni random üretmesidir.
+    <time.h> include edilir.
     */
